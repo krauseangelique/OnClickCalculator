@@ -1,2 +1,2 @@
 # OnClickCalculator
-Calculator on Javascrip based on on click event first draft
+Calculator on Javascrip based on onClick event first draft
