@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <h1>Happy Calculator</h1>
+    
+    <table>
+        <caption >Happy Calculator</caption>
+        <tr>
+            <th>Operation: </th>
+            <th id="firstNumber"></th>
+            <th id="operation"></th>
+            <th id="secondNumber"></th>
+            <th id="equalExe"></th>
+        </tr>
+        <tbody>
+            <tr>
+                <th>number</th>
+                <th>number</th>
+                <th>number</th>
+                <th>function</th>
+                <th>function</th>
+            </tr>
+            <tr>
+                <th>7</th>
+                <th>8</th>
+                <th>9</th>
+                <th>EFF</th>
+                <th>AC/on</th>
+            </tr>
+            <tr>
+                <th onclick="myFirstNumber()">4</th>
+                <th>5</th>
+                <th>6</th>
+                <th>X</th>
+                <th>/</th>
+            </tr>
+            <tr>
+                <th>1</th>
+                <th>2</th>
+                <th onclick="mySecondNumber()">3</th>
+                <th onclick="myFirstOperation()">+</th>
+                <th>-</th>
+            </tr>
+            <tr>
+                <th>0</th>
+                <th>.</th>
+                <th>x2</th>
+                <th>xn</th>
+                <th onclick="myResultSum()" id="stronger">EXE</th>
+            </tr>
+        </tbody>
+    </table>
+    
+</body>
+<script src="./scripts/script.js"></script>
+</html>
