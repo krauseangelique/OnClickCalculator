@@ -1,0 +1,26 @@
+body{
+    background-color: bisque;
+}
+table{
+    border: 1px dotted green;
+}
+th{
+    border : 1px solid brown;
+    padding: 8px;
+    background-color: lightblue;
+    
+}
+#firstNumber, #operation, #secondNumber{
+    background-color:yellow;
+    color: green;
+    font-weight: bold;
+}
+
+#equalExe{
+    background-color:aliceblue;
+    color: green;
+    font-size: 1.6rem;
+}
+#stronger{
+    background-color: rgb(65, 131, 151);
+}
