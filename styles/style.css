@@ -13,15 +13,19 @@ th{
 #firstNumber, #operation, #secondNumber{
     background-color:yellow;
     color: green;
-    font-weight: 500;
+    font-weight: 600;
+    font-size: 0.9rem;
 }
 
 #equalExe{
     background-color:aliceblue;
     color: green;
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-weight: bolder;
 }
 #stronger{
     background-color: rgb(65, 131, 151);
+}
+.stronge{
+    font-weight:bolder;
 }
